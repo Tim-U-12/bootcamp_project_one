@@ -128,6 +128,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+<<<<<<< HEAD
 # Personal ignores
 output_data/
 Resources/
+=======
+# Resource
+resource/
+>>>>>>> 5dad800b22d3b8ded86bcaca893cfa52318a94fb
