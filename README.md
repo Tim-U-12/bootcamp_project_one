@@ -23,7 +23,7 @@ The Pearson’s r is 0.89 and means a fairly strong positive relationship betwee
 
 The top 3 potential market is California, Florida, and New York State. These top 3 states are occupied one-third of the total listed vehicles. Geographically, the states located on the western and eastern coasts will be considered the better potential markets than inland areas. The Pearson correlation coefficient of 0.89 between the population in 2022 and the total listed vehicles tell us the strong relationship and the states with larger population may be better potential markets but it will not be necessary to consider the population density of states.
 
-## Correlation between odometer (kms run) and price of the car. – Dhiraj
+## Correlation between odometer (kms run) and price of the car – Dhiraj
 Higher the Odometer reading, lower the price of the car. We can see that from the graph above.
 Vehicles plotted on the botom right hand corner
 These vehicles are very high on the their odometer reading and hence the price of the vehicle has depreciated.
@@ -35,18 +35,29 @@ Year of manufacture is also have a bearing on the price of the vehicle
 ## The different types of vehicles listed in US from the year 2000 to 2022 - Anjana
 ### Summary
   •	The cleaned dataset of vehicles listed in the US was used for drawing conclusions about the different types of vehicles listed in US from the year 2000 to 2022.
+  
   •	The number of different types of vehicles listed was found and the percentage of each type of vehicles was calculated.
+  
   •	The top and bottom 5 types of vehicles listed were found out.
+  
   •	The year-wise trend of number of different types of cars listed was plotted to understand how it has changed from 2000 to 2022.
+  
   •	The top 3 manufacturers listed for vehicle types SUV and sedan were found out.
+  
   •	The year-wise trend of maximum price of suv and sedan cars listed was plotted to understand how it has changed from 2000 to 2022.
+  
   •	The price of the top 3 manufacturers of SUV and sedan was plotted to understand the maximum price of the vehicles listed.
 ### Conclusions
   •	From among the 13 different types of vehicles listed, SUV and sedan holds the highest percentage with 27.1% and 28.5% respectively.
+  
   •	The top 5 types of vehicles that are listed are: sedan, SUV, truck, pickup and hatchback and the lowest 5 types of vehicles that are listed are: bus, offroad, wagon,convertible and mini-van.
+  
   •	The year-wise trend of number of different types of cars listed shows that over the years from 2000 to 2022, SUV and sedan are always the types with highest number of cars listed. Also, a sharp rise in the number of cars listed can be observed in 2014. This was due to the lower gas prices in US.
+  
   •	The top 3 manufacturers of suv are Ford, Jeep and Chevrolet and the top 3 manufacturers of sedan are Chevrolet, Toyota and Honda.
+  
   •	The maximum price of suv and sedan have been rising over the years since 2000. There was a sharp rise in the price in 2009 and 2014. This was because of the weak economy and falling supply of new cars.
+  
   •	In the case of SUV, Ford has the maximum price listed and in the case of sedan, Chevrolet has the maximum price listed.
 
 ## Observations based on comparing the Color of the Vehicles listed with the number of listings, prices of listings and manufacturer – Deon
