@@ -1,11 +1,11 @@
 # bootcamp_project_one
-## USA Used vehicle Market analysis - Project Team 7
+## USA Used Vehicle Market Analysis - Project Team 7
 
 ## Project Scenario
 Our corporate client Used-Car Online Pty Ltd (UCO) is asking us to provide a comprehensive data analysis of the used car online market in the USA, according to the dataset file named ‘Vehicles.csv’. UCO requires us the following:
 - Demonstrate a clear data frame to list ['id', 'region', 'price', 'year', 'manufacturer', 'model', 'condition', 'cylinders', 'fuel', 'odometer', 'title_status', 'transmission', 'drive', 'size', 'type', 'paint_color', 'description', 'county', 'state', 'lat', 'long', 'posting_date’]
 - The top 10 state ranking by the most cars listed and its correlation with population each state - Ina
-- Correlation between odometer (kms run) and price of the car. – Dhiraj
+- Correlation between odometer (kms run) and price of the car – Dhiraj
 - The different types of vehicles listed in US from the year 2000 to 2022 – Anjana
 - Observations based on comparing the Color of the Vehicles listed with the number of listings, prices of listings and manufacturer – Deon
 
@@ -25,12 +25,12 @@ The top 3 potential market is California, Florida, and New York State. These top
 
 ## Correlation between odometer (kms run) and price of the car – Dhiraj
 Higher the Odometer reading, lower the price of the car. We can see that from the graph above.
-Vehicles plotted on the botom right hand corner
+Vehicles plotted on the botom right hand corner.
 These vehicles are very high on the their odometer reading and hence the price of the vehicle has depreciated.
-Vehicles plotted on the top left hand corner
+Vehicles plotted on the top left hand corner.
 These vehicles are very low on the their odometer reading and hence the price of the vehicle is high.
-Other factors to take into consideration while analysing this relation :
-Year of manufacture is also have a bearing on the price of the vehicle
+Other factors to take into consideration while analysing this relation:
+Year of manufacture is also have a bearing on the price of the vehicle.
 
 ## The different types of vehicles listed in US from the year 2000 to 2022 - Anjana
 ### Summary
