@@ -1,10 +1,9 @@
 # bootcamp_project_one
 ## USA Used vehicle Market analysis - Project Team 7
 
-Project Sceario
+## Project Sceario
 Our corporate client Used-Car Online Pty Ltd (UCO) is asking us to provide a comprehensive data analysis of the used car online market in the USA, according to the dataset file named ‘Vehicles.csv’. UCO requires us the following:
 - Demonstrate a clear data frame to list ['id', 'region', 'price', 'year', 'manufacturer', 'model', 'condition', 'cylinders', 'fuel', 'odometer', 'title_status', 'transmission', 'drive', 'size', 'type', 'paint_color', 'description', 'county', 'state', 'lat', 'long', 'posting_date’]
-- Summarize key information:
 - Which type of cars were mostly listed – Anjana
 - What is the most popular color listed – Deon
 - Correlation between odometer (kms run) and price of the car. – Dhiraj
@@ -22,15 +21,6 @@ Our corporate client Used-Car Online Pty Ltd (UCO) is asking us to provide a com
 -	merge(), loc() & for loop: to merge cleaned vehicle data with USA population & state abbreviation datasets
 -	stats.pearsonr(),stats.linregress(): to calculate correlation coefficient and linear regression
 
-## Correlation between odometer (kms run) and price of the car. – Dhiraj
-Higher the Odometer reading, lower the price of the car. We can see that from the graph above.
-Vehicles plotted on the botom right hand corner
-These vehicles are very high on the their odometer reading and hence the price of the vehicle has depreciated.
-Vehicles plotted on the top left hand corner
-These vehicles are very low on the their odometer reading and hence the price of the vehicle is high.
-Other factors to take into consideration while analysing this relation :
-Year of manufacture is also have a bearing on the price of the vehicle
-
 ## Which state is the most potential market? - Ina
 The top 10 states have occupied more than half of the total number of listed vehicles. Especially the top 3 states California, Florida & New York State. The top 3 states share nearly one-third of listed vehicle numbers and generally consider California will be the biggest potential market followed by Floria & New York States. And the other states in the top 10 could be covered in the 2nd stage of marketing strategical development.
 
@@ -40,3 +30,28 @@ The Pearson’s r is 0.89 and means a fairly strong positive relationship betwee
 
 The top 3 potential market is California, Florida, and New York State. These top 3 states are occupied one-third of the total listed vehicles. Geographically, the states located on the western and eastern coasts will be considered the better potential markets than inland areas. The Pearson correlation coefficient of 0.89 between the population in 2022 and the total listed vehicles tell us the strong relationship and the states with larger population may be better potential markets but it will not be necessary to consider the population density of states.
 
+## Correlation between odometer (kms run) and price of the car. – Dhiraj
+Higher the Odometer reading, lower the price of the car. We can see that from the graph above.
+Vehicles plotted on the botom right hand corner
+These vehicles are very high on the their odometer reading and hence the price of the vehicle has depreciated.
+Vehicles plotted on the top left hand corner
+These vehicles are very low on the their odometer reading and hence the price of the vehicle is high.
+Other factors to take into consideration while analysing this relation :
+Year of manufacture is also have a bearing on the price of the vehicle
+
+## The different types of vehicles listed in US from the year 2000 to 2022 - Anjana
+### Summary
+•	The cleaned dataset of vehicles listed in the US was used for drawing conclusions about the different types of vehicles listed in US from the year 2000 to 2022.
+•	The number of different types of vehicles listed was found and the percentage of each type of vehicles was calculated.
+•	The top and bottom 5 types of vehicles listed were found out.
+•	The year-wise trend of number of different types of cars listed was plotted to understand how it has changed from 2000 to 2022.
+•	The top 3 manufacturers listed for vehicle types SUV and sedan were found out.
+•	The year-wise trend of maximum price of suv and sedan cars listed was plotted to understand how it has changed from 2000 to 2022.
+•	The price of the top 3 manufacturers of SUV and sedan was plotted to understand the maximum price of the vehicles listed.
+### Conclusions
+•	From among the 13 different types of vehicles listed, SUV and sedan holds the highest percentage with 27.1% and 28.5% respectively.
+•	The top 5 types of vehicles that are listed are: sedan, SUV, truck, pickup and hatchback and the lowest 5 types of vehicles that are listed are: bus, offroad, wagon,convertible and mini-van.
+•	The year-wise trend of number of different types of cars listed shows that over the years from 2000 to 2022, SUV and sedan are always the types with highest number of cars listed. Also, a sharp rise in the number of cars listed can be observed in 2014. This was due to the lower gas prices in US.
+•	The top 3 manufacturers of suv are Ford, Jeep and Chevrolet and the top 3 manufacturers of sedan are Chevrolet, Toyota and Honda.
+•	The maximum price of suv and sedan have been rising over the years since 2000. There was a sharp rise in the price in 2009 and 2014. This was because of the weak economy and falling supply of new cars.
+•	In the case of SUV, Ford has the maximum price listed and in the case of sedan, Chevrolet has the maximum price listed.
