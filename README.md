@@ -10,10 +10,17 @@ Our corporate client Used-Car Online Pty Ltd (UCO) is asking us to provide a com
 - Correlation between odometer (kms run) and price of the car. – Dhiraj
 - The top 10 state ranking by the most cars listed and its correlation with population each state - Ina
 
-Dataset Source from: 
+## Dataset Source from: 
 - https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data?resource=download
 - https://worldpopulationreview.com/states/state-abbreviations
 - https://worldpopulationreview.com/states
+
+## EDA Methodology:
+-	upper(): to capitalize the state abbreviation in the column of ‘state’ 
+-	groupby(): to create a new data frame ‘geo_df’ with ‘state’ as an index and 3 columns ‘lat’, ‘long’ and ‘Total_Listed’
+-	sort_values(by=‘Total_Listed’) and head(10): to find the top 10 states ranking by the number of vehicles listed
+-	merge(), loc() & for loop: to merge cleaned vehicle data with USA population & state abbreviation datasets
+-	stats.pearsonr(),stats.linregress(): to calculate correlation coefficient and linear regression
 
 ## Summary:
 The top 10 states have occupied more than half of the total number of listed vehicles. Especially the top 3 states California, Florida & New York State. The top 3 states share nearly one-third of listed vehicle numbers and generally consider California will be the biggest potential market followed by Floria & New York States. And the other states in the top 10 could be covered in the 2nd stage of marketing strategical development.
