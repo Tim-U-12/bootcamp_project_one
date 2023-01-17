@@ -3,7 +3,7 @@
 # Description of Repo:
 
 * The Resource file is gitignored due to large size of the csv.
-* Project_1 is the main script file.
+* Project_1_final is the main script file.
 * output_data folder has the output images and cleaned dataset.
 
 # About the Project:
