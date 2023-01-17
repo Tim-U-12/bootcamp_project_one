@@ -9,6 +9,7 @@ Our corporate client Used-Car Online Pty Ltd (UCO) is asking us to provide a com
 - Correlation between odometer (kms run) and price of the car – Dhiraj
 - The different types of vehicles listed in US from the year 2000 to 2022 – Anjana
 - Observations based on comparing the Color of the Vehicles listed with the number of listings, prices of listings and manufacturer – Deon
+- What is the most profitable way to sell cars online? - Tim
 
 ## Dataset Source from: 
 - https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data?resource=download
